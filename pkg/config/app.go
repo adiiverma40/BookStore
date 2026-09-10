@@ -1,14 +1,13 @@
 package config
 
-import{
+import(
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-}
+)
 
 
-var {
-	db * gorm.db
-}
+var db * gorm.DB
+
 
 
 func Connect(){
